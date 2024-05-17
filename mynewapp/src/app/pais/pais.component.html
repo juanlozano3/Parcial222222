@@ -1,0 +1,29 @@
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-10">
+      <table class="table table-hover">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Nombre del País</th>
+            <th scope="col">Capital</th>
+            <th scope="col">Año de Formación</th>
+            <th scope="col">Idioma Oficial</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let pais of paises">
+            <td>{{ pais.name }}</td>
+            <td>{{ pais.capital }}</td>
+            <td>{{ pais.formation_year }}</td>
+            <td>{{ pais.official_language }}</td>
+            <td>
+              <img src="{{ pais.flag }}" alt="Bandera de {{ pais.name }}" style="width: 50px; height: auto;">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<span>minimo año: </span>
+<span>{{ minYear}}</span>

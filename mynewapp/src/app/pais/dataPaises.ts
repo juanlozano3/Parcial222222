@@ -1,0 +1,10 @@
+import { Pais } from "./pais";
+
+export const dataPaises = [
+    new Pais(1, 'Argentina', 1816, 'Español', 'Buenos Aires', 'Argentina es un país de América, ubicado en el extremo sur y sudeste de América del Sur. Su territorio está organizado como una república federal presidencialista.', 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/1200px-Flag_of_Argentina.svg.png'),
+    new Pais(2, 'Brasil', 1822, 'Portugués', 'Brasilia', 'Brasil, oficialmente República Federativa de Brasil, es un país soberano de América del Sur que comprende la mitad oriental del subcontinente y algunos grupos de pequeñas islas en el océano Atlántico.', 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png'),
+    new Pais(3, 'Chile', 1818, 'Español', 'Santiago', 'Chile, oficialmente República de Chile, es un país ubicado en el extremo sudoeste de América del Sur. Su continente limita al norte con Perú, al noreste con Bolivia, al este con Argentina y al oeste con el océano Pacífico.', 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Chile.svg/1200px-Flag_of_Chile.svg.png'),
+    new Pais(4, 'Colombia', 1810, 'Español', 'Bogotá', 'Colombia, oficialmente República de Colombia, es un país soberano situado en la región noroccidental de América del Sur, que se constituye en un estado unitario, social y democrático de derecho cuya forma de gobierno es presidencialista.', 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/1200px-Flag_of_Colombia.svg.png'),
+    new Pais(5, 'Ecuador', 1830, 'Español', 'Quito', 'Ecuador, oficialmente República del Ecuador, es un país soberano situado en la región noroccidental de América del Sur. Limita al norte con Colombia, al sur y al este con Perú y al oeste con el océano Pacífico.', 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/1200px-Flag_of_Ecuador.svg.png'),
+ 
+];
